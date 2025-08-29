@@ -32,6 +32,7 @@ void main() {
     expect(calc.add('4\n5\n6'), equals(15));
   });
 
+
   test('support custom single-char delimiter declaration', () {
     expect(calc.add('//;\n1;2'), equals(3));
     expect(calc.add('//#\n2#3#4'), equals(9));
