@@ -39,7 +39,6 @@ void main() {
 
   test('support custom multi-char delimiter in brackets', () {
     expect(calc.add('//[***]\n1***2***3'), equals(6));
-    // multiple delimiters
     expect(calc.add('//[*][%]\n1*2%3'), equals(6));
   });
 
