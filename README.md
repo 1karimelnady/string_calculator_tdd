@@ -1,16 +1,14 @@
-# string_calculator_tdd
+# String Calculator - TDD Kata
 
-A new Flutter project.
+This repository contains a Dart implementation of the String Calculator kata with TDD tests.
 
-## Getting Started
+## How to run tests
+1. `dart pub get`
+2. `dart test`
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Empty string -> 0
+- Comma and newline separators
+- Custom delimiters using `//[delimiter]\n`
+- Multi-char and multiple delimiters (e.g. `//[***][%]\n`)
+- Throws `NegativeNumbersException` listing all negative numbers
